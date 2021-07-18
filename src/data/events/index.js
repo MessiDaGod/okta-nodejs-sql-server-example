@@ -56,4 +56,3 @@ const register = async ( { sql, getConnection } ) => {
 };
 
 module.exports = { register };
-

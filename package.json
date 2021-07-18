@@ -10,7 +10,7 @@
     "start": "node ."
   },
   "keywords": [],
-  "author": "David Neal <david@reverentgeek.com> (https://reverentgeek.com)",
+  "author": "Joe Shakely",
   "license": "MIT",
   "dependencies": {
     "@hapi/bell": "^12.0.0",
@@ -32,6 +32,7 @@
     "weekstart": "^1.0.1"
   },
   "devDependencies": {
+    "@types/materialize-css": "^1.0.11",
     "@vue/component-compiler-utils": "^2.6.0",
     "eslint": "^6.8.0",
     "eslint-config-reverentgeek": "^2.0.2",

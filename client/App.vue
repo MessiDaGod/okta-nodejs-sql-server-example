@@ -34,25 +34,20 @@
                <div class="input-field col s6">
                    <span class="datetime-label">Start Date</span>
                    <datetime v-model="startDate" input-id="startDate" type="date" value-zone="local" input-class="validate"></datetime>
-                   <!-- <label for="startDate" class="datetime-label">Start Date</label> -->
                </div>
                <div class="input-field col s6">
                    <span class="datetime-label">Time</span>
                    <datetime v-model="startTime" input-id="startTime" type="time" minute-step="5" use12-hour="true" value-zone="local" input-class="validate"></datetime>
-                   <!-- <label for="startTime" class="datetime-label">Time</label> -->
                </div>
            </div>
            <div class="row">
                <div class="input-field col s6">
                    <span class="datetime-label">End Date</span>
                    <datetime v-model="endDate" input-id="endDate" type="date" value-zone="local" input-class="validate"></datetime>
-                   <!-- <label for="endDate">End Date</label> -->
                </div>
                <div class="input-field col s6">
                    <span class="datetime-label">Time</span>
                    <datetime v-model="endTime" input-id="endTime" type="time" minute-step="5" use12-hour="true" value-zone="local" input-class="validate"></datetime>
-                   <!-- <input v-model="endTime" ref="endTime" placeholder="" id="endTime" type="text" class="validate"> -->
-                   <!-- <label for="endTime">Time</label> -->
                </div>
            </div>
            <div class="row">
